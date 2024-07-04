@@ -1,0 +1,16 @@
+uuid: e7caf030-56a5-47a7-ab75-843acaeb3746
+langcode: en
+status: true
+dependencies:
+  module:
+    - ratio_crop
+name: rc_test
+label: 'RC test'
+effects:
+  5af3ef80-b8e4-45ae-9697-9b10954d1f8c:
+    uuid: 5af3ef80-b8e4-45ae-9697-9b10954d1f8c
+    id: image_crop_ratio
+    weight: 1
+    data:
+      anchor: center-top
+      aspect_ratio: '1:999'
